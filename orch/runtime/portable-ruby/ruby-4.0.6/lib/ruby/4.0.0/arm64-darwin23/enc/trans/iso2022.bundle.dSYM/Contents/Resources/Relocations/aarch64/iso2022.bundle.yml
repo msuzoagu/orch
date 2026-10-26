@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/trans/iso2022.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_iso2022, symObjAddr: 0x0, symBinAddr: 0x306C, symSize: 0x6C }
+  - { offsetInCU: 0x4B, offset: 0x4B, size: 0x8, addend: 0x0, symName: _rb_iso2022jp_decoder, symObjAddr: 0xEC0, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x301, offset: 0x301, size: 0x8, addend: 0x0, symName: _iso2022_byte_array, symObjAddr: 0x848, symBinAddr: 0x38E4, symSize: 0x0 }
+  - { offsetInCU: 0x323, offset: 0x323, size: 0x8, addend: 0x0, symName: _iso2022_word_array, symObjAddr: 0xD28, symBinAddr: 0x3DC4, symSize: 0x0 }
+  - { offsetInCU: 0x345, offset: 0x345, size: 0x8, addend: 0x0, symName: _rb_iso2022jp_encoder, symObjAddr: 0xF60, symBinAddr: 0x40A8, symSize: 0x0 }
+  - { offsetInCU: 0x35B, offset: 0x35B, size: 0x8, addend: 0x0, symName: _rb_stateless_iso2022jp_to_eucjp, symObjAddr: 0x1000, symBinAddr: 0x4148, symSize: 0x0 }
+  - { offsetInCU: 0x371, offset: 0x371, size: 0x8, addend: 0x0, symName: _rb_eucjp_to_stateless_iso2022jp, symObjAddr: 0x10A0, symBinAddr: 0x41E8, symSize: 0x0 }
+  - { offsetInCU: 0x387, offset: 0x387, size: 0x8, addend: 0x0, symName: _rb_cp50220_decoder, symObjAddr: 0x1140, symBinAddr: 0x4288, symSize: 0x0 }
+  - { offsetInCU: 0x39D, offset: 0x39D, size: 0x8, addend: 0x0, symName: _rb_cp50221_decoder, symObjAddr: 0x11E0, symBinAddr: 0x4328, symSize: 0x0 }
+  - { offsetInCU: 0x3B3, offset: 0x3B3, size: 0x8, addend: 0x0, symName: _rb_cp50220_encoder, symObjAddr: 0x1280, symBinAddr: 0x43C8, symSize: 0x0 }
+  - { offsetInCU: 0x3C9, offset: 0x3C9, size: 0x8, addend: 0x0, symName: _tbl0208, symObjAddr: 0xE3C, symBinAddr: 0x3ED8, symSize: 0x0 }
+  - { offsetInCU: 0x3F1, offset: 0x3F1, size: 0x8, addend: 0x0, symName: _rb_cp50221_encoder, symObjAddr: 0x1320, symBinAddr: 0x4468, symSize: 0x0 }
+  - { offsetInCU: 0x3FA, offset: 0x3FA, size: 0x8, addend: 0x0, symName: _Init_iso2022, symObjAddr: 0x0, symBinAddr: 0x306C, symSize: 0x6C }
+  - { offsetInCU: 0x46F, offset: 0x46F, size: 0x8, addend: 0x0, symName: _iso2022jp_init, symObjAddr: 0x6C, symBinAddr: 0x30D8, symSize: 0xC }
+  - { offsetInCU: 0x48B, offset: 0x48B, size: 0x8, addend: 0x0, symName: _iso2022jp_init, symObjAddr: 0x6C, symBinAddr: 0x30D8, symSize: 0xC }
+  - { offsetInCU: 0x4C3, offset: 0x4C3, size: 0x8, addend: 0x0, symName: _fun_si_iso2022jp_decoder, symObjAddr: 0x78, symBinAddr: 0x30E4, symSize: 0x2C }
+  - { offsetInCU: 0x518, offset: 0x518, size: 0x8, addend: 0x0, symName: _fun_so_iso2022jp_decoder, symObjAddr: 0xA4, symBinAddr: 0x3110, symSize: 0xA4 }
+  - { offsetInCU: 0x5C7, offset: 0x5C7, size: 0x8, addend: 0x0, symName: _fun_so_iso2022jp_encoder, symObjAddr: 0x148, symBinAddr: 0x31B4, symSize: 0xD8 }
+  - { offsetInCU: 0x68C, offset: 0x68C, size: 0x8, addend: 0x0, symName: _finish_iso2022jp_encoder, symObjAddr: 0x220, symBinAddr: 0x328C, symSize: 0x2C }
+  - { offsetInCU: 0x714, offset: 0x714, size: 0x8, addend: 0x0, symName: _iso2022jp_encoder_reset_sequence_size, symObjAddr: 0x24C, symBinAddr: 0x32B8, symSize: 0x14 }
+  - { offsetInCU: 0x74F, offset: 0x74F, size: 0x8, addend: 0x0, symName: _fun_so_stateless_iso2022jp_to_eucjp, symObjAddr: 0x260, symBinAddr: 0x32CC, symSize: 0x18 }
+  - { offsetInCU: 0x7AA, offset: 0x7AA, size: 0x8, addend: 0x0, symName: _fun_so_eucjp_to_stateless_iso2022jp, symObjAddr: 0x278, symBinAddr: 0x32E4, symSize: 0x20 }
+  - { offsetInCU: 0x805, offset: 0x805, size: 0x8, addend: 0x0, symName: _fun_si_cp50221_decoder, symObjAddr: 0x298, symBinAddr: 0x3304, symSize: 0xC0 }
+  - { offsetInCU: 0x86A, offset: 0x86A, size: 0x8, addend: 0x0, symName: _fun_so_cp50221_decoder, symObjAddr: 0x358, symBinAddr: 0x33C4, symSize: 0xF4 }
+  - { offsetInCU: 0x949, offset: 0x949, size: 0x8, addend: 0x0, symName: _fun_so_cp50220_encoder, symObjAddr: 0x44C, symBinAddr: 0x34B8, symSize: 0x2AC }
+  - { offsetInCU: 0xB88, offset: 0xB88, size: 0x8, addend: 0x0, symName: _finish_cp50220_encoder, symObjAddr: 0x6F8, symBinAddr: 0x3764, symSize: 0x90 }
+  - { offsetInCU: 0xC8E, offset: 0xC8E, size: 0x8, addend: 0x0, symName: _fun_so_cp5022x_encoder, symObjAddr: 0x788, symBinAddr: 0x37F4, symSize: 0xBC }
+...

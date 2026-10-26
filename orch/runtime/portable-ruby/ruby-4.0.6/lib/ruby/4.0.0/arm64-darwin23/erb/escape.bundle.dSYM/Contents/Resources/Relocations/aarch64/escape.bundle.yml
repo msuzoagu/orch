@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../../.ext/arm64-darwin23/erb/escape.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_escape, symObjAddr: 0x0, symBinAddr: 0x32A4, symSize: 0xA8 }
+  - { offsetInCU: 0x3E, offset: 0x3E, size: 0x8, addend: 0x0, symName: _Init_escape, symObjAddr: 0x0, symBinAddr: 0x32A4, symSize: 0xA8 }
+  - { offsetInCU: 0x5F, offset: 0x5F, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x2E70, symBinAddr: 0x8088, symSize: 0x0 }
+  - { offsetInCU: 0x11F, offset: 0x11F, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x2E70, symBinAddr: 0x8088, symSize: 0x0 }
+  - { offsetInCU: 0x134, offset: 0x134, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x2E70, symBinAddr: 0x8088, symSize: 0x0 }
+  - { offsetInCU: 0x14B, offset: 0x14B, size: 0x8, addend: 0x0, symName: _html_escape_table, symObjAddr: 0x362, symBinAddr: 0x379E, symSize: 0x0 }
+  - { offsetInCU: 0x700, offset: 0x700, size: 0x8, addend: 0x0, symName: _erb_escape_html, symObjAddr: 0xA8, symBinAddr: 0x334C, symSize: 0xAC }
+  - { offsetInCU: 0x805, offset: 0x805, size: 0x8, addend: 0x0, symName: _optimized_escape_html, symObjAddr: 0x154, symBinAddr: 0x33F8, symSize: 0x1DC }
+  - { offsetInCU: 0x876, offset: 0x876, size: 0x8, addend: 0x0, symName: _optimized_escape_html, symObjAddr: 0x154, symBinAddr: 0x33F8, symSize: 0x1DC }
+...

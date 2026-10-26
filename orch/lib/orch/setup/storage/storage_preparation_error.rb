@@ -1,0 +1,2 @@
+class StoragePreparationError < StandardError
+end

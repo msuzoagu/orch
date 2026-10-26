@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/cp949.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_cp949, symObjAddr: 0x0, symBinAddr: 0x3664, symSize: 0x14 }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: _encoding_CP949, symObjAddr: 0x190, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x3AE, offset: 0x3AE, size: 0x8, addend: 0x0, symName: _trans, symObjAddr: 0x220, symBinAddr: 0x38A0, symSize: 0x0 }
+  - { offsetInCU: 0x3E2, offset: 0x3E2, size: 0x8, addend: 0x0, symName: _EncLen_CP949, symObjAddr: 0x420, symBinAddr: 0x3AA0, symSize: 0x0 }
+  - { offsetInCU: 0x409, offset: 0x409, size: 0x8, addend: 0x0, symName: _CP949_CAN_BE_TRAIL_TABLE, symObjAddr: 0x820, symBinAddr: 0x3EA0, symSize: 0x0 }
+  - { offsetInCU: 0x440, offset: 0x440, size: 0x8, addend: 0x0, symName: _Init_cp949, symObjAddr: 0x0, symBinAddr: 0x3664, symSize: 0x14 }
+  - { offsetInCU: 0x459, offset: 0x459, size: 0x8, addend: 0x0, symName: _cp949_mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x3678, symSize: 0x60 }
+  - { offsetInCU: 0x489, offset: 0x489, size: 0x8, addend: 0x0, symName: _cp949_mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x3678, symSize: 0x60 }
+  - { offsetInCU: 0x4E8, offset: 0x4E8, size: 0x8, addend: 0x0, symName: _cp949_mbc_to_code, symObjAddr: 0x74, symBinAddr: 0x36D8, symSize: 0x14 }
+  - { offsetInCU: 0x532, offset: 0x532, size: 0x8, addend: 0x0, symName: _cp949_code_to_mbc, symObjAddr: 0x88, symBinAddr: 0x36EC, symSize: 0x14 }
+  - { offsetInCU: 0x56D, offset: 0x56D, size: 0x8, addend: 0x0, symName: _cp949_code_to_mbc, symObjAddr: 0x88, symBinAddr: 0x36EC, symSize: 0x14 }
+  - { offsetInCU: 0x5B7, offset: 0x5B7, size: 0x8, addend: 0x0, symName: _cp949_mbc_case_fold, symObjAddr: 0x9C, symBinAddr: 0x3700, symSize: 0x1C }
+  - { offsetInCU: 0x5F2, offset: 0x5F2, size: 0x8, addend: 0x0, symName: _cp949_mbc_case_fold, symObjAddr: 0x9C, symBinAddr: 0x3700, symSize: 0x1C }
+  - { offsetInCU: 0x65A, offset: 0x65A, size: 0x8, addend: 0x0, symName: _cp949_is_code_ctype, symObjAddr: 0xB8, symBinAddr: 0x371C, symSize: 0x14 }
+  - { offsetInCU: 0x6AD, offset: 0x6AD, size: 0x8, addend: 0x0, symName: _cp949_is_code_ctype, symObjAddr: 0xB8, symBinAddr: 0x371C, symSize: 0x14 }
+  - { offsetInCU: 0x6F7, offset: 0x6F7, size: 0x8, addend: 0x0, symName: _cp949_left_adjust_char_head, symObjAddr: 0xCC, symBinAddr: 0x3730, symSize: 0xA4 }
+  - { offsetInCU: 0x732, offset: 0x732, size: 0x8, addend: 0x0, symName: _cp949_left_adjust_char_head, symObjAddr: 0xCC, symBinAddr: 0x3730, symSize: 0xA4 }
+  - { offsetInCU: 0x7D6, offset: 0x7D6, size: 0x8, addend: 0x0, symName: _cp949_is_allowed_reverse_match, symObjAddr: 0x170, symBinAddr: 0x37D4, symSize: 0x1C }
+...

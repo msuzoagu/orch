@@ -1,0 +1,25 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../.ext/arm64-darwin23/pty.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_pty, symObjAddr: 0x0, symBinAddr: 0x2FAC, symSize: 0xD4 }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x6158, symBinAddr: 0x81F0, symSize: 0x0 }
+  - { offsetInCU: 0x74, offset: 0x74, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x6158, symBinAddr: 0x81F0, symSize: 0x0 }
+  - { offsetInCU: 0x7D, offset: 0x7D, size: 0x8, addend: 0x0, symName: _echild_status, symObjAddr: 0x580, symBinAddr: 0x352C, symSize: 0x68 }
+  - { offsetInCU: 0xA2, offset: 0xA2, size: 0x8, addend: 0x0, symName: _echild_status.rbimpl_id, symObjAddr: 0x6150, symBinAddr: 0x81E8, symSize: 0x0 }
+  - { offsetInCU: 0x11B, offset: 0x11B, size: 0x8, addend: 0x0, symName: _pty_detach_process, symObjAddr: 0x5E8, symBinAddr: 0x3594, symSize: 0x48 }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _Init_pty, symObjAddr: 0x0, symBinAddr: 0x2FAC, symSize: 0xD4 }
+  - { offsetInCU: 0x7DE, offset: 0x7DE, size: 0x8, addend: 0x0, symName: _pty_getpty, symObjAddr: 0xD4, symBinAddr: 0x3080, symSize: 0x2BC }
+  - { offsetInCU: 0xC77, offset: 0xC77, size: 0x8, addend: 0x0, symName: _pty_check, symObjAddr: 0x390, symBinAddr: 0x333C, symSize: 0xC0 }
+  - { offsetInCU: 0xCF2, offset: 0xCF2, size: 0x8, addend: 0x0, symName: _get_device_once, symObjAddr: 0x70C, symBinAddr: 0x36B8, symSize: 0x144 }
+  - { offsetInCU: 0xEFB, offset: 0xEFB, size: 0x8, addend: 0x0, symName: _raise_from_check, symObjAddr: 0x850, symBinAddr: 0x37FC, symSize: 0xA8 }
+  - { offsetInCU: 0x153A, offset: 0x153A, size: 0x8, addend: 0x0, symName: _pty_check, symObjAddr: 0x390, symBinAddr: 0x333C, symSize: 0xC0 }
+  - { offsetInCU: 0x1703, offset: 0x1703, size: 0x8, addend: 0x0, symName: _pty_open, symObjAddr: 0x450, symBinAddr: 0x33FC, symSize: 0x130 }
+  - { offsetInCU: 0x176C, offset: 0x176C, size: 0x8, addend: 0x0, symName: _raise_from_check, symObjAddr: 0x850, symBinAddr: 0x37FC, symSize: 0xA8 }
+  - { offsetInCU: 0x182A, offset: 0x182A, size: 0x8, addend: 0x0, symName: _pty_close_pty, symObjAddr: 0x8F8, symBinAddr: 0x38A4, symSize: 0x74 }
+  - { offsetInCU: 0x183B, offset: 0x183B, size: 0x8, addend: 0x0, symName: _pty_open, symObjAddr: 0x450, symBinAddr: 0x33FC, symSize: 0x130 }
+  - { offsetInCU: 0x1ABC, offset: 0x1ABC, size: 0x8, addend: 0x0, symName: _pty_detach_process, symObjAddr: 0x5E8, symBinAddr: 0x3594, symSize: 0x48 }
+  - { offsetInCU: 0x1BC9, offset: 0x1BC9, size: 0x8, addend: 0x0, symName: _chfunc, symObjAddr: 0x630, symBinAddr: 0x35DC, symSize: 0xDC }
+  - { offsetInCU: 0x1D53, offset: 0x1D53, size: 0x8, addend: 0x0, symName: _get_device_once, symObjAddr: 0x70C, symBinAddr: 0x36B8, symSize: 0x144 }
+  - { offsetInCU: 0x20CB, offset: 0x20CB, size: 0x8, addend: 0x0, symName: _pty_close_pty, symObjAddr: 0x8F8, symBinAddr: 0x38A4, symSize: 0x74 }
+...

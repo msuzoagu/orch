@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/gb18030.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_gb18030, symObjAddr: 0x0, symBinAddr: 0x3450, symSize: 0x14 }
+  - { offsetInCU: 0x4B, offset: 0x4B, size: 0x8, addend: 0x0, symName: _encoding_GB18030, symObjAddr: 0xAB8, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x3AF, offset: 0x3AF, size: 0x8, addend: 0x0, symName: _trans, symObjAddr: 0x5B5, symBinAddr: 0x3A95, symSize: 0x0 }
+  - { offsetInCU: 0x3E3, offset: 0x3E3, size: 0x8, addend: 0x0, symName: _GB18030_MAP, symObjAddr: 0x9B5, symBinAddr: 0x3E95, symSize: 0x0 }
+  - { offsetInCU: 0x4BD, offset: 0x4BD, size: 0x8, addend: 0x0, symName: _Init_gb18030, symObjAddr: 0x0, symBinAddr: 0x3450, symSize: 0x14 }
+  - { offsetInCU: 0x4D7, offset: 0x4D7, size: 0x8, addend: 0x0, symName: _gb18030_mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x3464, symSize: 0xC0 }
+  - { offsetInCU: 0x507, offset: 0x507, size: 0x8, addend: 0x0, symName: _gb18030_mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x3464, symSize: 0xC0 }
+  - { offsetInCU: 0x566, offset: 0x566, size: 0x8, addend: 0x0, symName: _gb18030_mbc_to_code, symObjAddr: 0xD4, symBinAddr: 0x3524, symSize: 0x9C }
+  - { offsetInCU: 0x61F, offset: 0x61F, size: 0x8, addend: 0x0, symName: _gb18030_code_to_mbc, symObjAddr: 0x170, symBinAddr: 0x35C0, symSize: 0x14 }
+  - { offsetInCU: 0x669, offset: 0x669, size: 0x8, addend: 0x0, symName: _gb18030_mbc_case_fold, symObjAddr: 0x184, symBinAddr: 0x35D4, symSize: 0x1C }
+  - { offsetInCU: 0x6A4, offset: 0x6A4, size: 0x8, addend: 0x0, symName: _gb18030_mbc_case_fold, symObjAddr: 0x184, symBinAddr: 0x35D4, symSize: 0x1C }
+  - { offsetInCU: 0x70C, offset: 0x70C, size: 0x8, addend: 0x0, symName: _gb18030_is_code_ctype, symObjAddr: 0x1A0, symBinAddr: 0x35F0, symSize: 0x14 }
+  - { offsetInCU: 0x75F, offset: 0x75F, size: 0x8, addend: 0x0, symName: _gb18030_is_code_ctype, symObjAddr: 0x1A0, symBinAddr: 0x35F0, symSize: 0x14 }
+  - { offsetInCU: 0x7A9, offset: 0x7A9, size: 0x8, addend: 0x0, symName: _gb18030_left_adjust_char_head, symObjAddr: 0x1B4, symBinAddr: 0x3604, symSize: 0x3B8 }
+  - { offsetInCU: 0x7E4, offset: 0x7E4, size: 0x8, addend: 0x0, symName: _gb18030_left_adjust_char_head, symObjAddr: 0x1B4, symBinAddr: 0x3604, symSize: 0x3B8 }
+  - { offsetInCU: 0x850, offset: 0x850, size: 0x8, addend: 0x0, symName: _gb18030_is_allowed_reverse_match, symObjAddr: 0x56C, symBinAddr: 0x39BC, symSize: 0x1C }
+...

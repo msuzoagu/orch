@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/utf_16le.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_utf_16le, symObjAddr: 0x0, symBinAddr: 0x3D2C, symSize: 0x14 }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: _encoding_UTF_16LE, symObjAddr: 0x210, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offsetInCU: 0x3A2, offset: 0x3A2, size: 0x8, addend: 0x0, symName: _Init_utf_16le, symObjAddr: 0x0, symBinAddr: 0x3D2C, symSize: 0x14 }
+  - { offsetInCU: 0x3BB, offset: 0x3BB, size: 0x8, addend: 0x0, symName: _utf16le_mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x3D40, symSize: 0x68 }
+  - { offsetInCU: 0x3EB, offset: 0x3EB, size: 0x8, addend: 0x0, symName: _utf16le_mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x3D40, symSize: 0x68 }
+  - { offsetInCU: 0x446, offset: 0x446, size: 0x8, addend: 0x0, symName: _utf16le_is_mbc_newline, symObjAddr: 0x7C, symBinAddr: 0x3DA8, symSize: 0x30 }
+  - { offsetInCU: 0x487, offset: 0x487, size: 0x8, addend: 0x0, symName: _utf16le_mbc_to_code, symObjAddr: 0xAC, symBinAddr: 0x3DD8, symSize: 0x40 }
+  - { offsetInCU: 0x4EB, offset: 0x4EB, size: 0x8, addend: 0x0, symName: _utf16le_code_to_mbclen, symObjAddr: 0xEC, symBinAddr: 0x3E18, symSize: 0x18 }
+  - { offsetInCU: 0x51F, offset: 0x51F, size: 0x8, addend: 0x0, symName: _utf16le_code_to_mbc, symObjAddr: 0x104, symBinAddr: 0x3E30, symSize: 0x50 }
+  - { offsetInCU: 0x597, offset: 0x597, size: 0x8, addend: 0x0, symName: _utf16le_mbc_case_fold, symObjAddr: 0x154, symBinAddr: 0x3E80, symSize: 0x5C }
+  - { offsetInCU: 0x63D, offset: 0x63D, size: 0x8, addend: 0x0, symName: _utf16le_get_case_fold_codes_by_str, symObjAddr: 0x1B0, symBinAddr: 0x3EDC, symSize: 0x1C }
+  - { offsetInCU: 0x6A5, offset: 0x6A5, size: 0x8, addend: 0x0, symName: _utf16le_left_adjust_char_head, symObjAddr: 0x1CC, symBinAddr: 0x3EF8, symSize: 0x44 }
+  - { offsetInCU: 0x6F8, offset: 0x6F8, size: 0x8, addend: 0x0, symName: _utf16le_left_adjust_char_head, symObjAddr: 0x1CC, symBinAddr: 0x3EF8, symSize: 0x44 }
+...

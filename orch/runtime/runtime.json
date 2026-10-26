@@ -1,0 +1,16 @@
+{
+  "RubyVersion": "4.0.6",
+  "Platform": "macOS",
+  "Architecture": "arm64",
+  "Directory": "portable-ruby/ruby-4.0.6",
+  "ArchiveSHA256": "f219dab680aae07600e76956ddf63567b360fa8f50ba026130cc275d77a55bcb",
+  "HelperGems": {
+    "json": "2.18.0",
+    "fiddle": "1.1.8"
+  },
+  "TestGems": {
+    "open3": "0.2.1",
+    "fileutils": "1.8.0",
+    "tmpdir": "0.3.1"
+  }
+}

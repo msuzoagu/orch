@@ -1,0 +1,23 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/cesu_8.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_cesu_8, symObjAddr: 0x0, symBinAddr: 0x2E08, symSize: 0x14 }
+  - { offsetInCU: 0x4B, offset: 0x4B, size: 0x8, addend: 0x0, symName: _encoding_CESU_8, symObjAddr: 0x1118, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offsetInCU: 0x3AF, offset: 0x3AF, size: 0x8, addend: 0x0, symName: _trans, symObjAddr: 0x516, symBinAddr: 0x3396, symSize: 0x0 }
+  - { offsetInCU: 0x3E3, offset: 0x3E3, size: 0x8, addend: 0x0, symName: _EncLen_CESU8, symObjAddr: 0xD18, symBinAddr: 0x3B98, symSize: 0x0 }
+  - { offsetInCU: 0x443, offset: 0x443, size: 0x8, addend: 0x0, symName: _Init_cesu_8, symObjAddr: 0x0, symBinAddr: 0x2E08, symSize: 0x14 }
+  - { offsetInCU: 0x45D, offset: 0x45D, size: 0x8, addend: 0x0, symName: _mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x2E1C, symSize: 0x160 }
+  - { offsetInCU: 0x48D, offset: 0x48D, size: 0x8, addend: 0x0, symName: _mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x2E1C, symSize: 0x160 }
+  - { offsetInCU: 0x509, offset: 0x509, size: 0x8, addend: 0x0, symName: _is_mbc_newline, symObjAddr: 0x174, symBinAddr: 0x2F7C, symSize: 0x24 }
+  - { offsetInCU: 0x568, offset: 0x568, size: 0x8, addend: 0x0, symName: _mbc_to_code, symObjAddr: 0x198, symBinAddr: 0x2FA0, symSize: 0xEC }
+  - { offsetInCU: 0x65E, offset: 0x65E, size: 0x8, addend: 0x0, symName: _code_to_mbclen, symObjAddr: 0x284, symBinAddr: 0x308C, symSize: 0x40 }
+  - { offsetInCU: 0x695, offset: 0x695, size: 0x8, addend: 0x0, symName: _code_to_mbc, symObjAddr: 0x2C4, symBinAddr: 0x30CC, symSize: 0x120 }
+  - { offsetInCU: 0x70A, offset: 0x70A, size: 0x8, addend: 0x0, symName: _mbc_case_fold, symObjAddr: 0x3E4, symBinAddr: 0x31EC, symSize: 0x50 }
+  - { offsetInCU: 0x788, offset: 0x788, size: 0x8, addend: 0x0, symName: _get_case_fold_codes_by_str, symObjAddr: 0x434, symBinAddr: 0x323C, symSize: 0x1C }
+  - { offsetInCU: 0x7B7, offset: 0x7B7, size: 0x8, addend: 0x0, symName: _get_case_fold_codes_by_str, symObjAddr: 0x434, symBinAddr: 0x323C, symSize: 0x1C }
+  - { offsetInCU: 0x825, offset: 0x825, size: 0x8, addend: 0x0, symName: _get_ctype_code_range, symObjAddr: 0x450, symBinAddr: 0x3258, symSize: 0x10 }
+  - { offsetInCU: 0x878, offset: 0x878, size: 0x8, addend: 0x0, symName: _get_ctype_code_range, symObjAddr: 0x450, symBinAddr: 0x3258, symSize: 0x10 }
+  - { offsetInCU: 0x8D0, offset: 0x8D0, size: 0x8, addend: 0x0, symName: _left_adjust_char_head, symObjAddr: 0x460, symBinAddr: 0x3268, symSize: 0xB0 }
+  - { offsetInCU: 0x8FF, offset: 0x8FF, size: 0x8, addend: 0x0, symName: _left_adjust_char_head, symObjAddr: 0x460, symBinAddr: 0x3268, symSize: 0xB0 }
+...

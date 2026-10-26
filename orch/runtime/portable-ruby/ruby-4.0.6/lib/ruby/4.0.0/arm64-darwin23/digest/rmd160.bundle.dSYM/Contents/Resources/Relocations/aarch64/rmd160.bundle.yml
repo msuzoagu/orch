@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../../.ext/arm64-darwin23/digest/rmd160.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_rmd160, symObjAddr: 0x0, symBinAddr: 0x22DC, symSize: 0xC8 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: _rmd160, symObjAddr: 0x130, symBinAddr: 0x4018, symSize: 0x0 }
+  - { offsetInCU: 0x1BA, offset: 0x1BA, size: 0x8, addend: 0x0, symName: _Init_rmd160, symObjAddr: 0x0, symBinAddr: 0x22DC, symSize: 0xC8 }
+  - { offsetInCU: 0x1E, offset: 0x39C, size: 0x8, addend: 0x0, symName: _rb_Digest_RMD160_Init, symObjAddr: 0x0, symBinAddr: 0x23A4, symSize: 0x28 }
+  - { offsetInCU: 0x4F, offset: 0x3CD, size: 0x8, addend: 0x0, symName: _rb_Digest_RMD160_Init, symObjAddr: 0x0, symBinAddr: 0x23A4, symSize: 0x28 }
+  - { offsetInCU: 0x78, offset: 0x3F6, size: 0x8, addend: 0x0, symName: _rb_Digest_RMD160_Transform, symObjAddr: 0x28, symBinAddr: 0x23CC, symSize: 0x1690 }
+  - { offsetInCU: 0x142, offset: 0x4C0, size: 0x8, addend: 0x0, symName: _rb_Digest_RMD160_Update, symObjAddr: 0x16B8, symBinAddr: 0x3A5C, symSize: 0x1A4 }
+  - { offsetInCU: 0x1EC, offset: 0x56A, size: 0x8, addend: 0x0, symName: _rb_Digest_RMD160_Finish, symObjAddr: 0x185C, symBinAddr: 0x3C00, symSize: 0x198 }
+...

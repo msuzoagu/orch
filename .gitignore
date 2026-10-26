@@ -1,0 +1,7 @@
+.zed
+PLAN.md
+docs/**
+.DS_STORE
+.ruby-lsp
+planning/**
+.unclassified

@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/trans/escape.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_escape, symObjAddr: 0x0, symBinAddr: 0x39E4, symSize: 0x3C }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: _rb_from__to_amp_escape, symObjAddr: 0xD0, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x300, offset: 0x300, size: 0x8, addend: 0x0, symName: _escape_byte_array, symObjAddr: 0x3E8, symBinAddr: 0x3B78, symSize: 0x0 }
+  - { offsetInCU: 0x322, offset: 0x322, size: 0x8, addend: 0x0, symName: _escape_word_array, symObjAddr: 0x394, symBinAddr: 0x3B24, symSize: 0x0 }
+  - { offsetInCU: 0x343, offset: 0x343, size: 0x8, addend: 0x0, symName: _rb_from__to_xml_text_escape, symObjAddr: 0x170, symBinAddr: 0x40A8, symSize: 0x0 }
+  - { offsetInCU: 0x358, offset: 0x358, size: 0x8, addend: 0x0, symName: _rb_from__to_xml_attr_content_escape, symObjAddr: 0x210, symBinAddr: 0x4148, symSize: 0x0 }
+  - { offsetInCU: 0x36D, offset: 0x36D, size: 0x8, addend: 0x0, symName: _rb_escape_xml_attr_quote, symObjAddr: 0x2B0, symBinAddr: 0x41E8, symSize: 0x0 }
+  - { offsetInCU: 0x376, offset: 0x376, size: 0x8, addend: 0x0, symName: _Init_escape, symObjAddr: 0x0, symBinAddr: 0x39E4, symSize: 0x3C }
+  - { offsetInCU: 0x3B6, offset: 0x3B6, size: 0x8, addend: 0x0, symName: _escape_xml_attr_quote_init, symObjAddr: 0x3C, symBinAddr: 0x3A20, symSize: 0xC }
+  - { offsetInCU: 0x3D2, offset: 0x3D2, size: 0x8, addend: 0x0, symName: _escape_xml_attr_quote_init, symObjAddr: 0x3C, symBinAddr: 0x3A20, symSize: 0xC }
+  - { offsetInCU: 0x40A, offset: 0x40A, size: 0x8, addend: 0x0, symName: _fun_so_escape_xml_attr_quote, symObjAddr: 0x48, symBinAddr: 0x3A2C, symSize: 0x3C }
+  - { offsetInCU: 0x481, offset: 0x481, size: 0x8, addend: 0x0, symName: _escape_xml_attr_quote_finish, symObjAddr: 0x84, symBinAddr: 0x3A68, symSize: 0x48 }
+...

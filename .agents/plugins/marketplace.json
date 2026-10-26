@@ -1,0 +1,17 @@
+{
+  "name": "orch-dev",
+  "plugins": [
+    {
+      "name": "orch",
+      "source": {
+        "source": "local",
+        "path": "./orch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

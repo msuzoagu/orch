@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/emacs_mule.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_emacs_mule, symObjAddr: 0x0, symBinAddr: 0x2F54, symSize: 0x14 }
+  - { offsetInCU: 0x4B, offset: 0x4B, size: 0x8, addend: 0x0, symName: _encoding_Emacs_Mule, symObjAddr: 0x4F0, symBinAddr: 0x4018, symSize: 0x0 }
+  - { offsetInCU: 0x3AF, offset: 0x3AF, size: 0x8, addend: 0x0, symName: _trans, symObjAddr: 0x584, symBinAddr: 0x3498, symSize: 0x0 }
+  - { offsetInCU: 0x3E3, offset: 0x3E3, size: 0x8, addend: 0x0, symName: _EncLen_EmacsMule, symObjAddr: 0xC84, symBinAddr: 0x3B98, symSize: 0x0 }
+  - { offsetInCU: 0x43D, offset: 0x43D, size: 0x8, addend: 0x0, symName: _Init_emacs_mule, symObjAddr: 0x0, symBinAddr: 0x2F54, symSize: 0x14 }
+  - { offsetInCU: 0x457, offset: 0x457, size: 0x8, addend: 0x0, symName: _mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x2F68, symSize: 0xF4 }
+  - { offsetInCU: 0x487, offset: 0x487, size: 0x8, addend: 0x0, symName: _mbc_enc_len, symObjAddr: 0x14, symBinAddr: 0x2F68, symSize: 0xF4 }
+  - { offsetInCU: 0x4C2, offset: 0x4C2, size: 0x8, addend: 0x0, symName: _mbc_to_code, symObjAddr: 0x108, symBinAddr: 0x305C, symSize: 0x9C }
+  - { offsetInCU: 0x57B, offset: 0x57B, size: 0x8, addend: 0x0, symName: _code_to_mbclen, symObjAddr: 0x1A4, symBinAddr: 0x30F8, symSize: 0x38 }
+  - { offsetInCU: 0x59D, offset: 0x59D, size: 0x8, addend: 0x0, symName: _code_to_mbc, symObjAddr: 0x1DC, symBinAddr: 0x3130, symSize: 0x88 }
+  - { offsetInCU: 0x661, offset: 0x661, size: 0x8, addend: 0x0, symName: _mbc_case_fold, symObjAddr: 0x264, symBinAddr: 0x31B8, symSize: 0x224 }
+  - { offsetInCU: 0x74B, offset: 0x74B, size: 0x8, addend: 0x0, symName: _is_code_ctype, symObjAddr: 0x488, symBinAddr: 0x33DC, symSize: 0x38 }
+  - { offsetInCU: 0x7AD, offset: 0x7AD, size: 0x8, addend: 0x0, symName: _left_adjust_char_head, symObjAddr: 0x4C0, symBinAddr: 0x3414, symSize: 0x30 }
+...

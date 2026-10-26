@@ -1,0 +1,41 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../../../../../.bundle/extensions/arm64-darwin-23/4.0.0-static/racc-1.8.1/racc/cparse.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_cparse, symObjAddr: 0x0, symBinAddr: 0x1F4C, symSize: 0x254 }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x88, offset: 0x88, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0xAA, offset: 0xAA, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0xD8, offset: 0xD8, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0xEF, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x106, offset: 0x106, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x134, offset: 0x134, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x14B, offset: 0x14B, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x162, offset: 0x162, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x179, offset: 0x179, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0xD1E8, symBinAddr: 0x8138, symSize: 0x0 }
+  - { offsetInCU: 0x190, offset: 0x190, size: 0x8, addend: 0x0, symName: _cparse_params_type, symObjAddr: 0x1C88, symBinAddr: 0x4028, symSize: 0x0 }
+  - { offsetInCU: 0x53D, offset: 0x53D, size: 0x8, addend: 0x0, symName: _Init_cparse, symObjAddr: 0x0, symBinAddr: 0x1F4C, symSize: 0x254 }
+  - { offsetInCU: 0xAB3, offset: 0xAB3, size: 0x8, addend: 0x0, symName: _racc_cparse, symObjAddr: 0x254, symBinAddr: 0x21A0, symSize: 0xB0 }
+  - { offsetInCU: 0xC02, offset: 0xC02, size: 0x8, addend: 0x0, symName: _initialize_params, symObjAddr: 0x414, symBinAddr: 0x2360, symSize: 0x478 }
+  - { offsetInCU: 0x17FA, offset: 0x17FA, size: 0x8, addend: 0x0, symName: _parse_main, symObjAddr: 0x88C, symBinAddr: 0x27D8, symSize: 0x7A4 }
+  - { offsetInCU: 0x1804, offset: 0x1804, size: 0x8, addend: 0x0, symName: _parse_main, symObjAddr: 0x88C, symBinAddr: 0x27D8, symSize: 0x7A4 }
+  - { offsetInCU: 0x266A, offset: 0x266A, size: 0x8, addend: 0x0, symName: _cparse_params_mark, symObjAddr: 0x1030, symBinAddr: 0x2F7C, symSize: 0xA8 }
+  - { offsetInCU: 0x268A, offset: 0x268A, size: 0x8, addend: 0x0, symName: _racc_yyparse, symObjAddr: 0x304, symBinAddr: 0x2250, symSize: 0x110 }
+  - { offsetInCU: 0x2828, offset: 0x2828, size: 0x8, addend: 0x0, symName: _initialize_params, symObjAddr: 0x414, symBinAddr: 0x2360, symSize: 0x478 }
+  - { offsetInCU: 0x2BC4, offset: 0x2BC4, size: 0x8, addend: 0x0, symName: _rb_array_len, symObjAddr: 0x10E0, symBinAddr: 0x302C, symSize: 0x18 }
+  - { offsetInCU: 0x2BE4, offset: 0x2BE4, size: 0x8, addend: 0x0, symName: _rb_array_len, symObjAddr: 0x10E0, symBinAddr: 0x302C, symSize: 0x18 }
+  - { offsetInCU: 0x2C07, offset: 0x2C07, size: 0x8, addend: 0x0, symName: _rb_array_len, symObjAddr: 0x10E0, symBinAddr: 0x302C, symSize: 0x18 }
+  - { offsetInCU: 0x2DCC, offset: 0x2DCC, size: 0x8, addend: 0x0, symName: _shift, symObjAddr: 0x12B0, symBinAddr: 0x31FC, symSize: 0x108 }
+  - { offsetInCU: 0x305D, offset: 0x305D, size: 0x8, addend: 0x0, symName: _reduce0, symObjAddr: 0x13B8, symBinAddr: 0x3304, symSize: 0x574 }
+  - { offsetInCU: 0x3074, offset: 0x3074, size: 0x8, addend: 0x0, symName: _extract_user_token, symObjAddr: 0x10F8, symBinAddr: 0x3044, symSize: 0x1B8 }
+  - { offsetInCU: 0x3273, offset: 0x3273, size: 0x8, addend: 0x0, symName: _shift, symObjAddr: 0x12B0, symBinAddr: 0x31FC, symSize: 0x108 }
+  - { offsetInCU: 0x3284, offset: 0x3284, size: 0x8, addend: 0x0, symName: _cparse_params_mark, symObjAddr: 0x1030, symBinAddr: 0x2F7C, symSize: 0xA8 }
+  - { offsetInCU: 0x339B, offset: 0x339B, size: 0x8, addend: 0x0, symName: _cparse_params_memsize, symObjAddr: 0x10D8, symBinAddr: 0x3024, symSize: 0x8 }
+  - { offsetInCU: 0x33B2, offset: 0x33B2, size: 0x8, addend: 0x0, symName: _cparse_params_memsize, symObjAddr: 0x10D8, symBinAddr: 0x3024, symSize: 0x8 }
+  - { offsetInCU: 0x3446, offset: 0x3446, size: 0x8, addend: 0x0, symName: _reduce0, symObjAddr: 0x13B8, symBinAddr: 0x3304, symSize: 0x574 }
+  - { offsetInCU: 0x4173, offset: 0x4173, size: 0x8, addend: 0x0, symName: _lexer_i, symObjAddr: 0x192C, symBinAddr: 0x3878, symSize: 0x90 }
+  - { offsetInCU: 0x41A3, offset: 0x41A3, size: 0x8, addend: 0x0, symName: _lexer_i, symObjAddr: 0x192C, symBinAddr: 0x3878, symSize: 0x90 }
+...

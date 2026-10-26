@@ -1,0 +1,11 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=/Users/runner/work/ruby/ruby/.build/4.0.6-macos-yjit/deps/libffi/lib
+toolexeclibdir=${libdir}
+includedir=${prefix}/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.5.1
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

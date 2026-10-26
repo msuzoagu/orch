@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../../.ext/arm64-darwin23/digest/sha2.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_sha2, symObjAddr: 0x0, symBinAddr: 0x3A6C, symSize: 0x1A4 }
+  - { offsetInCU: 0x150, offset: 0x150, size: 0x8, addend: 0x0, symName: _sha256, symObjAddr: 0x3B8, symBinAddr: 0x4010, symSize: 0x0 }
+  - { offsetInCU: 0x165, offset: 0x165, size: 0x8, addend: 0x0, symName: _sha384, symObjAddr: 0x3F0, symBinAddr: 0x4048, symSize: 0x0 }
+  - { offsetInCU: 0x17A, offset: 0x17A, size: 0x8, addend: 0x0, symName: _sha512, symObjAddr: 0x428, symBinAddr: 0x4080, symSize: 0x0 }
+  - { offsetInCU: 0x1F7, offset: 0x1F7, size: 0x8, addend: 0x0, symName: _Init_sha2, symObjAddr: 0x0, symBinAddr: 0x3A6C, symSize: 0x1A4 }
+  - { offsetInCU: 0x431, offset: 0x431, size: 0x8, addend: 0x0, symName: _rb_digest_SHA256_update, symObjAddr: 0x1A4, symBinAddr: 0x3C10, symSize: 0x78 }
+  - { offsetInCU: 0x4E9, offset: 0x4E9, size: 0x8, addend: 0x0, symName: _rb_digest_SHA256_update, symObjAddr: 0x1A4, symBinAddr: 0x3C10, symSize: 0x78 }
+  - { offsetInCU: 0x614, offset: 0x614, size: 0x8, addend: 0x0, symName: _rb_digest_SHA256_finish, symObjAddr: 0x21C, symBinAddr: 0x3C88, symSize: 0x10 }
+  - { offsetInCU: 0x64F, offset: 0x64F, size: 0x8, addend: 0x0, symName: _rb_digest_SHA384_update, symObjAddr: 0x22C, symBinAddr: 0x3C98, symSize: 0x78 }
+  - { offsetInCU: 0x67E, offset: 0x67E, size: 0x8, addend: 0x0, symName: _rb_digest_SHA384_update, symObjAddr: 0x22C, symBinAddr: 0x3C98, symSize: 0x78 }
+  - { offsetInCU: 0x7AA, offset: 0x7AA, size: 0x8, addend: 0x0, symName: _rb_digest_SHA384_finish, symObjAddr: 0x2A4, symBinAddr: 0x3D10, symSize: 0x10 }
+  - { offsetInCU: 0x7E5, offset: 0x7E5, size: 0x8, addend: 0x0, symName: _rb_digest_SHA512_update, symObjAddr: 0x2B4, symBinAddr: 0x3D20, symSize: 0x78 }
+  - { offsetInCU: 0x814, offset: 0x814, size: 0x8, addend: 0x0, symName: _rb_digest_SHA512_update, symObjAddr: 0x2B4, symBinAddr: 0x3D20, symSize: 0x78 }
+  - { offsetInCU: 0x8C2, offset: 0x8C2, size: 0x8, addend: 0x0, symName: _rb_digest_SHA512_finish, symObjAddr: 0x32C, symBinAddr: 0x3D98, symSize: 0x10 }
+...

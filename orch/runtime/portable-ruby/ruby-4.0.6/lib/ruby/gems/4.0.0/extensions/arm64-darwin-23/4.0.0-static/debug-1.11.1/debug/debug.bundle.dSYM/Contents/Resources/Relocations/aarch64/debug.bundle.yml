@@ -1,0 +1,40 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../../../../.bundle/extensions/arm64-darwin-23/4.0.0-static/debug-1.11.1/debug/debug.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_debug, symObjAddr: 0x0, symBinAddr: 0x3354, symSize: 0x220 }
+  - { offsetInCU: 0x2B, offset: 0x2B, size: 0x8, addend: 0x0, symName: _Init_debug, symObjAddr: 0x0, symBinAddr: 0x3354, symSize: 0x220 }
+  - { offsetInCU: 0x4C, offset: 0x4C, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x61, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x78, offset: 0x78, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x2C2, offset: 0x2C2, size: 0x8, addend: 0x0, symName: _capture_frames, symObjAddr: 0x220, symBinAddr: 0x3574, symSize: 0xC }
+  - { offsetInCU: 0x2FD, offset: 0x2FD, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x31F, offset: 0x31F, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x32A, offset: 0x32A, size: 0x8, addend: 0x0, symName: _di_body, symObjAddr: 0x444, symBinAddr: 0x3798, symSize: 0x230 }
+  - { offsetInCU: 0x34F, offset: 0x34F, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x70E, offset: 0x70E, size: 0x8, addend: 0x0, symName: _iseq_parameters_symbols, symObjAddr: 0x244, symBinAddr: 0x3598, symSize: 0x188 }
+  - { offsetInCU: 0x733, offset: 0x733, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x74A, offset: 0x74A, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x761, offset: 0x761, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x778, offset: 0x778, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x78F, offset: 0x78F, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0x7A6, offset: 0x7A6, size: 0x8, addend: 0x0, symName: __MergedGlobals, symObjAddr: 0x3E70, symBinAddr: 0x8108, symSize: 0x0 }
+  - { offsetInCU: 0xBDB, offset: 0xBDB, size: 0x8, addend: 0x0, symName: _capture_frames, symObjAddr: 0x220, symBinAddr: 0x3574, symSize: 0xC }
+  - { offsetInCU: 0xC10, offset: 0xC10, size: 0x8, addend: 0x0, symName: _frame_depth, symObjAddr: 0x22C, symBinAddr: 0x3580, symSize: 0x4 }
+  - { offsetInCU: 0xC72, offset: 0xC72, size: 0x8, addend: 0x0, symName: _frame_depth, symObjAddr: 0x22C, symBinAddr: 0x3580, symSize: 0x4 }
+  - { offsetInCU: 0xC9A, offset: 0xC9A, size: 0x8, addend: 0x0, symName: _iseq_type, symObjAddr: 0x230, symBinAddr: 0x3584, symSize: 0x14 }
+  - { offsetInCU: 0xCB0, offset: 0xCB0, size: 0x8, addend: 0x0, symName: _iseq_type, symObjAddr: 0x230, symBinAddr: 0x3584, symSize: 0x14 }
+  - { offsetInCU: 0xD00, offset: 0xD00, size: 0x8, addend: 0x0, symName: _iseq_parameters_symbols, symObjAddr: 0x244, symBinAddr: 0x3598, symSize: 0x188 }
+  - { offsetInCU: 0xEAF, offset: 0xEAF, size: 0x8, addend: 0x0, symName: _iseq_first_line, symObjAddr: 0x3CC, symBinAddr: 0x3720, symSize: 0x3C }
+  - { offsetInCU: 0xF8C, offset: 0xF8C, size: 0x8, addend: 0x0, symName: _iseq_last_line, symObjAddr: 0x408, symBinAddr: 0x375C, symSize: 0x3C }
+  - { offsetInCU: 0x1E, offset: 0x156B, size: 0x8, addend: 0x0, symName: _iseq_i, symObjAddr: 0x0, symBinAddr: 0x39C8, symSize: 0x84 }
+  - { offsetInCU: 0x2B, offset: 0x1578, size: 0x8, addend: 0x0, symName: _Init_iseq_collector, symObjAddr: 0x84, symBinAddr: 0x3A4C, symSize: 0x98 }
+  - { offsetInCU: 0x4C, offset: 0x1599, size: 0x8, addend: 0x0, symName: _Init_iseq_collector.rbimpl_id, symObjAddr: 0x1770, symBinAddr: 0x8170, symSize: 0x0 }
+  - { offsetInCU: 0x27B, offset: 0x17C8, size: 0x8, addend: 0x0, symName: _iseq_i, symObjAddr: 0x0, symBinAddr: 0x39C8, symSize: 0x84 }
+  - { offsetInCU: 0x3DF, offset: 0x192C, size: 0x8, addend: 0x0, symName: _each_iseq, symObjAddr: 0x11C, symBinAddr: 0x3AE4, symSize: 0x3C }
+  - { offsetInCU: 0x4CF, offset: 0x1A1C, size: 0x8, addend: 0x0, symName: _count_iseq, symObjAddr: 0x158, symBinAddr: 0x3B20, symSize: 0x64 }
+  - { offsetInCU: 0x57A, offset: 0x1AC7, size: 0x8, addend: 0x0, symName: _each_iseq_i, symObjAddr: 0x1BC, symBinAddr: 0x3B84, symSize: 0x14 }
+  - { offsetInCU: 0x5C2, offset: 0x1B0F, size: 0x8, addend: 0x0, symName: _count_iseq_i, symObjAddr: 0x1D0, symBinAddr: 0x3B98, symSize: 0x10 }
+  - { offsetInCU: 0x5EE, offset: 0x1B3B, size: 0x8, addend: 0x0, symName: _count_iseq_i, symObjAddr: 0x1D0, symBinAddr: 0x3B98, symSize: 0x10 }
+...

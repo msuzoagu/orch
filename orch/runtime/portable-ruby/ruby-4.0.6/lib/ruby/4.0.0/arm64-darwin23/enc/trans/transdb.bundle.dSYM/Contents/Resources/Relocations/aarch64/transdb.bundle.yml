@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/trans/transdb.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_transdb, symObjAddr: 0x0, symBinAddr: 0x29D8, symSize: 0x10A4 }
+  - { offsetInCU: 0x3E, offset: 0x3E, size: 0x8, addend: 0x0, symName: _Init_transdb, symObjAddr: 0x0, symBinAddr: 0x29D8, symSize: 0x10A4 }
+...

@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '.ext/arm64-darwin23/enc/koi8_u.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_koi8_u, symObjAddr: 0x0, symBinAddr: 0x3A6C, symSize: 0x14 }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: _encoding_KOI8_U, symObjAddr: 0xB0, symBinAddr: 0x4008, symSize: 0x0 }
+  - { offsetInCU: 0x3AE, offset: 0x3AE, size: 0x8, addend: 0x0, symName: _EncKOI8_U_ToLowerCaseTable, symObjAddr: 0x140, symBinAddr: 0x3B80, symSize: 0x0 }
+  - { offsetInCU: 0x3D0, offset: 0x3D0, size: 0x8, addend: 0x0, symName: _CaseFoldMap, symObjAddr: 0x240, symBinAddr: 0x3C80, symSize: 0x0 }
+  - { offsetInCU: 0x41E, offset: 0x41E, size: 0x8, addend: 0x0, symName: _EncKOI8_U_CtypeTable, symObjAddr: 0x368, symBinAddr: 0x3DA8, symSize: 0x0 }
+  - { offsetInCU: 0x440, offset: 0x440, size: 0x8, addend: 0x0, symName: _Init_koi8_u, symObjAddr: 0x0, symBinAddr: 0x3A6C, symSize: 0x14 }
+  - { offsetInCU: 0x459, offset: 0x459, size: 0x8, addend: 0x0, symName: _koi8_u_mbc_case_fold, symObjAddr: 0x14, symBinAddr: 0x3A80, symSize: 0x2C }
+  - { offsetInCU: 0x489, offset: 0x489, size: 0x8, addend: 0x0, symName: _koi8_u_mbc_case_fold, symObjAddr: 0x14, symBinAddr: 0x3A80, symSize: 0x2C }
+  - { offsetInCU: 0x4ED, offset: 0x4ED, size: 0x8, addend: 0x0, symName: _koi8_u_apply_all_case_fold, symObjAddr: 0x40, symBinAddr: 0x3AAC, symSize: 0x20 }
+  - { offsetInCU: 0x542, offset: 0x542, size: 0x8, addend: 0x0, symName: _koi8_u_get_case_fold_codes_by_str, symObjAddr: 0x60, symBinAddr: 0x3ACC, symSize: 0x24 }
+  - { offsetInCU: 0x59C, offset: 0x59C, size: 0x8, addend: 0x0, symName: _koi8_u_get_case_fold_codes_by_str, symObjAddr: 0x60, symBinAddr: 0x3ACC, symSize: 0x24 }
+  - { offsetInCU: 0x600, offset: 0x600, size: 0x8, addend: 0x0, symName: _koi8_u_is_code_ctype, symObjAddr: 0x84, symBinAddr: 0x3AF0, symSize: 0x28 }
+  - { offsetInCU: 0x661, offset: 0x661, size: 0x8, addend: 0x0, symName: _koi8_u_is_code_ctype, symObjAddr: 0x84, symBinAddr: 0x3AF0, symSize: 0x28 }
+...

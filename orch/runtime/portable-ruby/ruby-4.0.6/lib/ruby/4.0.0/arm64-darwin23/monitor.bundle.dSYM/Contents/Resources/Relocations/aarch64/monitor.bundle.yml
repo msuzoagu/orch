@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '../../.ext/arm64-darwin23/monitor.bundle'
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _Init_monitor, symObjAddr: 0x0, symBinAddr: 0x30D8, symSize: 0x128 }
+  - { offsetInCU: 0x4A, offset: 0x4A, size: 0x8, addend: 0x0, symName: _monitor_data_type, symObjAddr: 0xC70, symBinAddr: 0x4018, symSize: 0x0 }
+  - { offsetInCU: 0x15B, offset: 0x15B, size: 0x8, addend: 0x0, symName: _monitor_wait_for_cond_body, symObjAddr: 0x9A0, symBinAddr: 0x3A78, symSize: 0x10C }
+  - { offsetInCU: 0x180, offset: 0x180, size: 0x8, addend: 0x0, symName: _monitor_wait_for_cond_body.rbimpl_id, symObjAddr: 0x6B20, symBinAddr: 0x80C0, symSize: 0x0 }
+  - { offsetInCU: 0x4A4, offset: 0x4A4, size: 0x8, addend: 0x0, symName: _Init_monitor, symObjAddr: 0x0, symBinAddr: 0x30D8, symSize: 0x128 }
+  - { offsetInCU: 0x5FD, offset: 0x5FD, size: 0x8, addend: 0x0, symName: _monitor_alloc, symObjAddr: 0x128, symBinAddr: 0x3200, symSize: 0x6C }
+  - { offsetInCU: 0x80F, offset: 0x80F, size: 0x8, addend: 0x0, symName: _monitor_try_enter, symObjAddr: 0x194, symBinAddr: 0x326C, symSize: 0xF8 }
+  - { offsetInCU: 0xA3D, offset: 0xA3D, size: 0x8, addend: 0x0, symName: _monitor_enter, symObjAddr: 0x28C, symBinAddr: 0x3364, symSize: 0x108 }
+  - { offsetInCU: 0xC52, offset: 0xC52, size: 0x8, addend: 0x0, symName: _monitor_exit, symObjAddr: 0x394, symBinAddr: 0x346C, symSize: 0x110 }
+  - { offsetInCU: 0xDE6, offset: 0xDE6, size: 0x8, addend: 0x0, symName: _monitor_synchronize, symObjAddr: 0x4A4, symBinAddr: 0x357C, symSize: 0x128 }
+  - { offsetInCU: 0xE23, offset: 0xE23, size: 0x8, addend: 0x0, symName: _monitor_synchronize, symObjAddr: 0x4A4, symBinAddr: 0x357C, symSize: 0x128 }
+  - { offsetInCU: 0x104F, offset: 0x104F, size: 0x8, addend: 0x0, symName: _monitor_locked_p, symObjAddr: 0x5CC, symBinAddr: 0x36A4, symSize: 0x84 }
+  - { offsetInCU: 0x116B, offset: 0x116B, size: 0x8, addend: 0x0, symName: _monitor_check_owner, symObjAddr: 0x650, symBinAddr: 0x3728, symSize: 0xBC }
+  - { offsetInCU: 0x1187, offset: 0x1187, size: 0x8, addend: 0x0, symName: _monitor_check_owner, symObjAddr: 0x650, symBinAddr: 0x3728, symSize: 0xBC }
+  - { offsetInCU: 0x12D2, offset: 0x12D2, size: 0x8, addend: 0x0, symName: _monitor_owned_p, symObjAddr: 0x70C, symBinAddr: 0x37E4, symSize: 0xB0 }
+  - { offsetInCU: 0x12DC, offset: 0x12DC, size: 0x8, addend: 0x0, symName: _monitor_owned_p, symObjAddr: 0x70C, symBinAddr: 0x37E4, symSize: 0xB0 }
+  - { offsetInCU: 0x14B0, offset: 0x14B0, size: 0x8, addend: 0x0, symName: _monitor_wait_for_cond, symObjAddr: 0x7BC, symBinAddr: 0x3894, symSize: 0xF4 }
+  - { offsetInCU: 0x16C9, offset: 0x16C9, size: 0x8, addend: 0x0, symName: _monitor_mark, symObjAddr: 0x8B0, symBinAddr: 0x3988, symSize: 0x28 }
+  - { offsetInCU: 0x170D, offset: 0x170D, size: 0x8, addend: 0x0, symName: _monitor_compact, symObjAddr: 0x8D8, symBinAddr: 0x39B0, symSize: 0x34 }
+  - { offsetInCU: 0x1724, offset: 0x1724, size: 0x8, addend: 0x0, symName: _monitor_compact, symObjAddr: 0x8D8, symBinAddr: 0x39B0, symSize: 0x34 }
+  - { offsetInCU: 0x1783, offset: 0x1783, size: 0x8, addend: 0x0, symName: _monitor_sync_body, symObjAddr: 0x90C, symBinAddr: 0x39E4, symSize: 0x8 }
+  - { offsetInCU: 0x17AB, offset: 0x17AB, size: 0x8, addend: 0x0, symName: _monitor_sync_ensure, symObjAddr: 0x914, symBinAddr: 0x39EC, symSize: 0x8C }
+  - { offsetInCU: 0x17CD, offset: 0x17CD, size: 0x8, addend: 0x0, symName: _monitor_sync_ensure, symObjAddr: 0x914, symBinAddr: 0x39EC, symSize: 0x8C }
+  - { offsetInCU: 0x185A, offset: 0x185A, size: 0x8, addend: 0x0, symName: _monitor_wait_for_cond_body, symObjAddr: 0x9A0, symBinAddr: 0x3A78, symSize: 0x10C }
+  - { offsetInCU: 0x196C, offset: 0x196C, size: 0x8, addend: 0x0, symName: _monitor_enter_for_cond, symObjAddr: 0xAAC, symBinAddr: 0x3B84, symSize: 0xFC }
+...

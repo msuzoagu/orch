@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/sh \"${PLUGIN_ROOT}/scripts/ruby_launcher.sh\" \"${PLUGIN_ROOT}/hooks/question_setup.rb\"",
+            "commandWindows": "\"${PLUGIN_ROOT}\\scripts\\ruby_launcher.cmd\" \"${PLUGIN_ROOT}\\hooks\\question_setup.rb\"",
+            "timeout": 10,
+            "statusMessage": "Loading Question Setup instructions"
+          }
+        ]
+      }
+    ]
+  }
+}
